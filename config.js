@@ -1,38 +1,38 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter SolidState', // <title>
-  manifestName: 'SolidState',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: "Margaux Chevreux's Portfolio", // <title>
+  manifestName: 'Margaux Chevreux',
+  manifestShortName: 'Margaux', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  pathPrefix: `/portfolio/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Margaux Chevreux',
+  subHeading: 'I create original mobile apps and I love catching beautiful pictures',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      name: 'github.com/Mgxcx',
+      url: 'https://github.com/Mgxcx',
     },
     {
       icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      name: 'twitter.com/Mgxcx',
+      url: 'https://twitter.com/Mgxcx',
     },
     {
       icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      name: 'facebook.com/Margaux.Chevreux',
+      url: 'https://www.facebook.com/Margaux.Chevreux/',
     },
     {
       icon: 'fa-envelope-o',
-      name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      name: 'margaux.chevreux@mgxcx.fr',
+      url: "mailto:margaux.chevreux@mgxcx.fr",
     },
   ],
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  phone: '+33 6 49 08 54 53',
+  address: "2 Bis B rue du Puits d'Affetet 77230 Moussy le Vieux",
 };
