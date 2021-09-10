@@ -18,10 +18,10 @@ const Style = () => /*#__PURE__*/_react.default.createElement("style", {
         :host {
           --gatsby: #663399;
           --gatsbyLight: #9158ca;
-          --dimmedWhite: rgba(255, 255, 255, 0.8);
+          --dimmedWhite: rgba(255, 255, 255, 0.7);
           --white: #ffffff;
           --black: #000000;
-          --color-ansi-selection: rgba(95, 126, 151, 0.48);
+          --color-ansi-selection: rgba(95, 126, 151, 0.38);
           --color-ansi-bg: #fafafa;
           --color-ansi-fg: #545454;
           --color-ansi-white: #969896;
