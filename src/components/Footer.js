@@ -4,14 +4,14 @@ export default function Footer() {
   return (
     <section id="footer">
       <div className="inner">
-        <h2 className="major">Get in touch</h2>
+        <h2 className="major">Contactez-moi !</h2>
         <p>
 
         </p>
         <form method="post" action="/#">
           <div className="fields">
             <div className="field">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Nom</label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field">
@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
           <ul className="actions">
             <li>
-              <input type="submit" value="Send Message" />
+              <input type="submit" value="Envoyer mon message" />
             </li>
           </ul>
         </form>

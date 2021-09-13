@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: "Margaux Chevreux's Portfolio", // <title>
+  siteTitle: "Margaux Chevreux Portfolio", // <title>
   manifestName: 'Margaux Chevreux',
   manifestShortName: 'Margaux', // max 12 characters
   manifestStartUrl: '/',
@@ -7,9 +7,9 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/portfolio/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Margaux Chevreux',
-  subHeading: 'I create original mobile apps and I love catching beautiful pictures',
+  subHeading: "Je crée des applications mobiles originales, et j'adore capturer de belles photos.",
   // social
   socialLinks: [
     {

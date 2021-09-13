@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
 import { Link } from 'gatsby';
+
 export default function SideBar({ fullMenu }) {
   const [headerOpen, toggleHeader] = useState(false);
   return (
@@ -9,7 +10,6 @@ export default function SideBar({ fullMenu }) {
         <h1>
           <Link to="/">Solid State</Link>
         </h1>
-
         <nav>
           <a
             href="#menu"
