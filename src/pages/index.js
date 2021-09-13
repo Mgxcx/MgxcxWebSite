@@ -10,8 +10,10 @@ import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 
+
 import config from '../../config';
 const IndexPage = () => (
+
   <Layout>
     <section id="banner">
       <div className="inner">
@@ -30,7 +32,7 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">A bit about me</h2>
+            <h2 className="major">Un petit mot sur moi</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
@@ -160,6 +162,7 @@ const IndexPage = () => (
         </div>
       </section>
     </section>
+
   </Layout>
 );
 
