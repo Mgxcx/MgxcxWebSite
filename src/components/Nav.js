@@ -14,7 +14,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/"
             >
-              Home
+              Accueil
             </Link>
           </li>
           <li>
@@ -22,9 +22,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Generic"
+              to="/Portfolio"
             >
-              Generic Page
+              Portfolio
             </Link>
           </li>
           <li>
@@ -32,9 +32,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Elements"
+              to="/Articles"
             >
-              Elements
+              Articles
             </Link>
           </li>
         </ul>
