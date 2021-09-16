@@ -8,7 +8,7 @@ export default function SideBar({ fullMenu }) {
     <>
       <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
         <h1>
-          <Link to="/">Solid State</Link>
+          <Link to="/">Accueil</Link>
         </h1>
         <nav>
           <a
