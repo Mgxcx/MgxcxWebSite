@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Margaux Chevreux',
-  subHeading: "Je crée des applications mobiles originales, et j'adore capturer de belles photos.",
+  subHeading: "Je crée des apps mobiles originales, et j'adore capturer de belles photos.",
   // social
   socialLinks: [
     {
