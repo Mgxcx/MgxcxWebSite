@@ -10,10 +10,6 @@ var plugins = [{
       name: 'gatsby-plugin-offline',
       plugin: require('/Users/margaux/ProjetsTech/SitePerso/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
-    },{
-      name: 'gatsby-plugin-multi-language-sitemap',
-      plugin: require('/Users/margaux/ProjetsTech/SitePerso/node_modules/gatsby-plugin-multi-language-sitemap/gatsby-ssr'),
-      options: {"plugins":[],"output":"/","query":"\n          query {\n            allSitePage {\n              nodes {\n                path\n              }\n            }\n            site {\n              siteMetadata {\n                http://localhost:8000\n              }\n            }\n          }\n        ","langs":["fr","en","de","es"],"createLinkInHead":true,"excludes":[],"combinedHrefs":false},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:
