@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: "Margaux Chevreux Portfolio", // <title>
+  siteTitle: 'Margaux Chevreux - Développeuse mobile freelance', // <title>
   manifestName: 'Margaux Chevreux',
   manifestShortName: 'Margaux', // max 12 characters
   manifestStartUrl: '/',
@@ -9,7 +9,8 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Margaux Chevreux',
-  subHeading: "Je crée des apps mobiles originales, et j'adore capturer de belles photos.",
+  subHeading:
+    "Je crée des apps mobiles originales, et j'adore capturer de belles photos.",
   // social
   socialLinks: [
     {
@@ -30,7 +31,7 @@ module.exports = {
     {
       icon: 'fa-envelope-o',
       name: 'margaux.chevreux@mgxcx.fr',
-      url: "mailto:margaux.chevreux@mgxcx.fr",
+      url: 'mailto:margaux.chevreux@mgxcx.fr',
     },
   ],
   phone: '+33 6 49 08 54 53',
