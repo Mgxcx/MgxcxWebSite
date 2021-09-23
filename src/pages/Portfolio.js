@@ -37,7 +37,7 @@ import Location6 from '../assets/images/AppLocation6.png';
 import Face1 from '../assets/images/AppFace1.png';
 import Face2 from '../assets/images/AppFace2.png';
 import Face3 from '../assets/images/AppFace3.png';
-import Face4 from '../assets/images/AppFace4.jpg';
+import Face4 from '../assets/images/AppFace4.png';
 
 // import MyMoviz1 from '../assets/images/MyMoviz1.png';
 // import MyMoviz2 from '../assets/images/MyMoviz2.png';
