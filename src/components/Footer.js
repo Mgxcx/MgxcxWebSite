@@ -13,7 +13,7 @@ export default function Footer() {
           method="post"
           netlify-honeypot="bot-field"
           data-netlify="true"
-          data-netlify-recaptcha="true"
+          // data-netlify-recaptcha="true"
         >
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="contact" />
@@ -31,12 +31,12 @@ export default function Footer() {
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
           </div>
+          {/* <ReCAPTCHA
+            sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
+            theme="dark"
+          /> */}
           <ul className="actions">
             <li>
-              <ReCAPTCHA
-                sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
-                theme="dark"
-              />
               <input
                 type="submit"
                 value="Envoyer mon message"
