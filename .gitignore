@@ -4,3 +4,6 @@ webpack
 
 # macOS
 .DS_Store
+
+# environment variables
+.env.*
