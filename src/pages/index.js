@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Slide from 'react-reveal/Slide';
+
 import Layout from '../components/Layout';
 
 import pic1 from '../assets/images/pic01.jpg';
@@ -26,9 +28,11 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic1} alt="" />
-          </a>
+          <Slide right>
+            <a href="/#" className="image">
+              <img src={pic1} alt="" />
+            </a>
+          </Slide>
           <div className="content">
             <h2 className="major">À propos de moi...</h2>
             <p>
@@ -55,9 +59,11 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic2} alt="" />
-          </a>
+          <Slide left>
+            <a href="/#" className="image">
+              <img src={pic2} alt="" />
+            </a>
+          </Slide>
           <div className="content">
             <h2 className="major">
               De la conception au développement de votre app mobile
@@ -89,9 +95,11 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic3} alt="" />
-          </a>
+          <Slide right>
+            <a href="/#" className="image">
+              <img src={pic3} alt="" />
+            </a>
+          </Slide>
           <div className="content">
             <h2 className="major">Ma passion pour la photographie</h2>
             <p>
