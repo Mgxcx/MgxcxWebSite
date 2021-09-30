@@ -10,7 +10,7 @@ module.exports = {
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Margaux Chevreux',
   subHeading:
-    "Je crée des apps mobiles originales, et j'adore capturer de belles photos.",
+    "Développeuse d'applications mobiles originales, passionnée de photographie.",
   // social
   socialLinks: [
     {
