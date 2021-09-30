@@ -28,6 +28,10 @@
       width: calc(50% - #{_size(section-spacing, large) * 0.5});
     }
 
+    .sendbutton {
+      margin-top: 1em;
+    }
+
     .copyright {
       border-top: solid 2px _palette(border);
       list-style: none;

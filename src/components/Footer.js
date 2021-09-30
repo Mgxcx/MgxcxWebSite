@@ -32,13 +32,17 @@ export default function Footer() {
             </div>
           </div>
           <ul className="actions">
-            <ReCAPTCHA
-              sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
-              theme="dark"
-              size="compact"
-            />
             <li>
-              <input type="submit" value="Envoyer mon message" />
+              <ReCAPTCHA
+                sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
+                theme="dark"
+                size="compact"
+              />
+              <input
+                type="submit"
+                value="Envoyer mon message"
+                className="sendbutton"
+              />
             </li>
           </ul>
         </form>
