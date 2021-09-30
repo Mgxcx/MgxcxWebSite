@@ -70,7 +70,7 @@ const IndexPage = () => (
         </div>
       </header>
     </section>
-    <div className="wrapper">
+    <div className="wrapper style2">
       <div className="inner">
         <h3 className="major">Application mobile e-commerce - Beer's Corner</h3>
         <Slide bottom big>
