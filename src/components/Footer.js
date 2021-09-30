@@ -36,7 +36,6 @@ export default function Footer() {
               <ReCAPTCHA
                 sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
                 theme="dark"
-                size="compact"
               />
               <input
                 type="submit"
