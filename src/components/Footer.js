@@ -1,12 +1,20 @@
 import React from 'react';
 import config from '../../config';
+import ReCAPTCHA from 'react-google-recaptcha';
+
 export default function Footer() {
   return (
     <section id="footer">
       <div className="inner">
         <h2 className="major">Contactez-moi !</h2>
         <p></p>
-        <form method="post" action="/#">
+        <form
+          name="Contact Form"
+          method="post"
+          data-netlify="true"
+          data-netlify-recaptcha="true"
+        >
+          <input type="hidden" name="form-name" value="Contact Form" />
           <div className="fields">
             <div className="field">
               <label htmlFor="name">Nom</label>
@@ -23,6 +31,7 @@ export default function Footer() {
           </div>
           <ul className="actions">
             <li>
+              <ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_SITE_KEY} />
               <input type="submit" value="Envoyer mon message" />
             </li>
           </ul>
