@@ -5,9 +5,7 @@ export default function Footer() {
     <section id="footer">
       <div className="inner">
         <h2 className="major">Contactez-moi !</h2>
-        <p>
-
-        </p>
+        <p></p>
         <form method="post" action="/#">
           <div className="fields">
             <div className="field">
@@ -34,7 +32,7 @@ export default function Footer() {
 
           <li className="fa-phone">{config.phone}</li>
 
-          {config.socialLinks.map(social => {
+          {config.socialLinks.map((social) => {
             const { icon, name, url } = social;
             return (
               <li className={`${icon}`} key={url}>
