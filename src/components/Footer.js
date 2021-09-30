@@ -9,12 +9,14 @@ export default function Footer() {
         <h2 className="major">Contactez-moi !</h2>
         <p></p>
         <form
-          name="Contact Form"
+          name="contact"
           method="post"
+          netlify-honeypot="bot-field"
           data-netlify="true"
           data-netlify-recaptcha="true"
         >
-          <input type="hidden" name="form-name" value="Contact Form" />
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
           <div className="fields">
             <div className="field">
               <label htmlFor="name">Nom</label>
@@ -31,7 +33,7 @@ export default function Footer() {
           </div>
           <ul className="actions">
             <li>
-              <ReCAPTCHA sitekey={process.env.SITE_RECAPTCHA_KEY} />
+              <ReCAPTCHA sitekey="{process.env.SITE_RECAPTCHA_KEY}" />
               <input type="submit" value="Envoyer mon message" />
             </li>
           </ul>
