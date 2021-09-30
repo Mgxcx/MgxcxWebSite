@@ -31,7 +31,7 @@ export default function Footer() {
           </div>
           <ul className="actions">
             <li>
-              <ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_SITE_KEY} />
+              <ReCAPTCHA sitekey={process.env.SITE_RECAPTCHA_KEY} />
               <input type="submit" value="Envoyer mon message" />
             </li>
           </ul>
