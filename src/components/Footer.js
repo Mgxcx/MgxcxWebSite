@@ -1,6 +1,5 @@
 import React from 'react';
 import config from '../../config';
-import ReCAPTCHA from 'react-google-recaptcha';
 
 export default function Footer() {
   return (
@@ -13,7 +12,6 @@ export default function Footer() {
           method="post"
           netlify-honeypot="bot-field"
           data-netlify="true"
-          // data-netlify-recaptcha="true"
         >
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="contact" />
@@ -31,10 +29,6 @@ export default function Footer() {
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
           </div>
-          {/* <ReCAPTCHA
-            sitekey={process.env.GATSBY_SITE_RECAPTCHA_KEY}
-            theme="dark"
-          /> */}
           <ul className="actions">
             <li>
               <input
@@ -60,10 +54,7 @@ export default function Footer() {
           })}
         </ul>
         <ul className="copyright">
-          <li>&copy; Solid State. All rights reserved.</li>
-          <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
-          </li>
+          <li>&copy; Margaux Chevreux.</li>
         </ul>
       </div>
     </section>
