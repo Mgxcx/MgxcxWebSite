@@ -6,8 +6,13 @@
 
 /* Section/Article */
 
-	section, article {
-		&.special {
-			text-align: center;
-		}
-	}
+section,
+article {
+  &.special {
+    text-align: center;
+  }
+}
+
+.portfolio {
+  margin-top: 1em;
+}
