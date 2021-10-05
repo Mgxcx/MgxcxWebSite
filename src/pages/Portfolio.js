@@ -86,27 +86,25 @@ const IndexPage = () => (
           </Slider>
         </Slide>
         <p>
-          Beer’s Corner est un bar à bières situé au Plessis-Belleville. C’est
-          un bar accueillant une clientèle d’habitués, qui a pris l’habitude
-          pendant le confinement de commander des bières et planches sur le site
-          WordPress déjà existant (soit à emporter, soit en livraison). Le
-          besoin d’une application mobile reliée à leur API externe afin
-          d’enregistrer les commandes et les recevoir directement sur leur
-          caisse est devenu une évidence pour les deux gérants !
+          Beer’s Corner est un bar à bières situé au Plessis-Belleville. Il
+          accueille une clientèle d’habitués, qui a pris l’habitude pendant le
+          confinement de commander des bières et planches sur le site WordPress
+          déjà existant. Le besoin d’une application mobile reliée à leur API
+          externe afin d’enregistrer les commandes et les recevoir directement
+          sur leur caisse est devenu une évidence pour les deux gérants !
         </p>
-
         <p>
-          Création de l'application mobile de A à Z contenant une page d'accueil
-          avec toutes les actualités, une page pour stocker des produits
-          favoris, une page de catalogue de produits avec un menu horizontal
-          dynamique, une page dédiée au processus de commande (incluant le
-          panier, l’identification, le paiement et la validation de la
-          commande), et une page de compte client (accès au profil du client
-          avec ses principales informations et commandes, et paramètres pour
-          modifier certaines informations). <br />
-          Prototypage et Conception : création de la maquette, et de l'UI Kit de
-          l'application mobile. Requêtes à leur API externe, gestion du paiement
-          avec Stripe, et gestion de l'authentification avec Firebase.
+          Création de l'application mobile de A à Z : maquettage, création de
+          l'UI Kit et développement. Elle contient une page d'accueil avec
+          toutes les actualités, une page pour stocker des produits favoris, une
+          page de catalogue de produits avec un menu horizontal dynamique, une
+          page dédiée au processus de commande (incluant le panier,
+          l’identification, le paiement et la validation de la commande), et une
+          page de compte client (accès au profil du client avec ses principales
+          informations et commandes, et paramètres pour modifier certaines
+          informations). <br />
+          Spécificités : requêtes à leur API externe, gestion du paiement avec
+          Stripe, et gestion de l'authentification avec Firebase.
         </p>
         <p>
           Technos utilisées : React Native, Redux, Node.js, Express.js <br />
@@ -114,8 +112,9 @@ const IndexPage = () => (
           Outils : Gitlab, GitKraken <br />
           Tests : Jest, Postman
         </p>
+      </div>
 
-        <br />
+      <div className="inner portfolio">
         <h3 className="major">Application Mobile CV - Margaux Chevreux</h3>
         <Slide bottom big>
           <Slider {...settings} className="slider2">
@@ -133,18 +132,18 @@ const IndexPage = () => (
           skills et réseaux sociaux dans une side bar. <br />
           Elle redirige à l’aide de boutons vers les principales pages. Elle
           simule une notification destinée à un faux recruteur pour qu’il me
-          contacte, et au clic sur le bouton « Recrutez-moi » : un faux dialogue
-          avec ce fameux recruteur pour mettre en avant le chat.
+          contacte, et au clic sur le bouton « Recrutez-moi » : un dialogue avec
+          ce fameux recruteur pour mettre en avant le chat.
           <br />
           Elle contient également une page d’expériences sous forme de flatlist,
           une page de formations sous forme de cards, qui, au clic, révèlent des
-          steps indicators dynamiques avec les grands thèmes détaillés de la
-          formation en question. <br />
+          steps indicators dynamiques avec les thèmes détaillés de la formation
+          en question. <br />
           Elle contient aussi une page détaillant ma stack à l’aide de logos. Et
-          pour finir, une page dédiée à mes hobbies qui met donc en avant une
-          carte interactive avec les points de mes différents voyages, mes plus
-          beaux clichés photographiques, les plats que j’adore cuisiner, et une
-          photo de mes chats.
+          pour finir, une page dédiée à mes hobbies qui met en avant une carte
+          interactive avec les points de mes différents voyages, mes plus beaux
+          clichés photographiques, les plats que j’aime cuisiner, et une photo
+          de mes chats.
         </p>
         <p>
           Technos utilisées : React Native, Redux, Node.js, Express.js <br />
@@ -152,11 +151,9 @@ const IndexPage = () => (
           Outils : Gitlab, GitKraken <br />
           Tests : Jest, Postman
         </p>
+      </div>
 
-        <br />
-        <br />
-        <br />
-        <br />
+      <div className="inner portfolio">
         <h3 className="major">
           Application Mobile d'entraînement aux entretiens - Margaux Chevreux et
           Pierre-Laurent Vincent
@@ -173,45 +170,33 @@ const IndexPage = () => (
           Création d'une application React Native d’entraînement aux entretiens
           d’embauche.
         </p>
-
         <p>
-          L'application propose un questionnaire d'entretien toujours différent
-          dans la page entraînement. Nous avons décidé de générer à chaque
-          entraînement des questions aléatoires parmi une cinquantaine de choix
-          en fonction de la difficulté choisie par l'utilisateur avant chaque
-          entretien. Nous avons créé les questions selon différentes thématiques
-          : parler de soi, négociation, projection, préparatifs et storytelling.{' '}
+          L'application propose des entraînements aux entretiens. À chaque
+          entraînement, des questions aléatoires sont générées en fonction de la
+          difficulté choisie avant chaque entretien. Nous avons créé les
+          questions selon 5 thématiques.
           <br /> Elle donne accès à la suite de l'entretien à des statistiques à
           l’aide de « charts », un salaire approximatif selon le métier et la
-          région (webscrapping des données de KelJob), un score et un trophée en
-          fonction du score. <br />
-          Elle possède aussi une page dédiée aux conseils pour réussir au mieux
-          son entretien, et une page de compte récapitulant les derniers scores
-          aux entretiens, les trophées gagnés, et la formule actuelle de
-          l'utilisateur.
+          région (webscrapping de KelJob), un score et un trophée. <br />
+          Elle possède aussi une page dédiée aux conseils, et une page de compte
+          avec les scores, les trophées gagnés, et la formule actuelle.
           <br /> Elle propose plusieurs formules d'entraînements avec
-          différentes fonctionnalités à débloquer (statistiques plus détaillées,
-          chat avec un recruteur, etc.) entraînant le paiement pour les formules
-          + et pro.
+          différentes fonctionnalités à débloquer (statistiques, chat avec un
+          recruteur, etc.).
           <br />
-          Nous avons tous deux réalisé le design et le maquettage au préalable.{' '}
-          <br />
-          L'idée est venue de mon binôme qui a travaillé dans le domaine du
-          recrutement et avait remarqué que les candidats n'étaient pas assez
-          préparés. J'ai été heureuse de contribuer à rendre son idée
-          d'application mobile concrète.
+          L'idée est venue de mon binôme qui avait remarqué que les candidats
+          n'étaient pas assez préparés.
         </p>
         <p>
-          Technos utilisées : React Native, Redux, MongoDB, Node.js, Express.js{' '}
+          Technos utilisées : React Native, Redux, MongoDB, Node.js, Express.js
           <br />
           Design : Figma, Whimsical <br />
           Outils : Github, Git <br />
           Tests : Jest, Postman
         </p>
+      </div>
 
-        <br />
-        <br />
-
+      <div className="inner portfolio">
         <h3 className="major">
           Application Mobile de partage de points d'intérêts - Margaux Chevreux
         </h3>
@@ -232,12 +217,21 @@ const IndexPage = () => (
 
         <p>
           L'application intègre une carte sur laquelle les utilisateurs peuvent
-          ajouter des points d’intérêts avec des titres et descriptions.
+          ajouter des points d’intérêts avec des titres et descriptions. Les
+          points d'intérêts sont enregistrés dans le compte de l'utilisateur.
         </p>
         <p>
-          Elle propose également un chat avec les différents utilisateurs de
-          l'application afin de discuter des points d'intérêts de chacun, et de
-          partager de bons spots !
+          Il est possible d'ajouter des points d'intérêts partout dans le monde
+          à l'aide de cette application ! Le but est d'en ajouter le plus
+          possible, et d'en discuter avec la communauté, et donc d'en découvrir
+          des nouveaux !
+        </p>
+        <p>
+          Pour permettre les discussions, elle propose également un chat avec
+          les différents utilisateurs de l'application afin de discuter des
+          points d'intérêts de chacun, et de partager de bons spots ! <br />
+          Les messages du chat sont enregistrés dans le compte de l'utilisateur,
+          pour qu'il puisse retrouver facilement ce qu'on a pu lui conseiller.
         </p>
         <p>
           Technos utilisées : React Native, Redux, Node.js, Express.js <br />
@@ -245,17 +239,9 @@ const IndexPage = () => (
           Outils : Github, Git <br />
           Tests : Jest, Postman
         </p>
+      </div>
 
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+      <div className="inner portfolio">
         <h3 className="major">
           Application Mobile de capture et galerie de photos - Margaux Chevreux
         </h3>
@@ -272,7 +258,6 @@ const IndexPage = () => (
           photos, reliée à l'API Microsoft Azure de reconnaissance faciale: Face
           Detect.
         </p>
-
         <p>
           L'application intègre l'appareil photo natif du téléphone afin de
           capturer des photos sur les deux objectifs (avant/arrière), avec le
@@ -289,80 +274,16 @@ const IndexPage = () => (
           galerie.
         </p>
         <p>
+          Le but de cette application est de capturer de beaux instants, et de
+          découvrir ce que l'API sonde de notre visage ! De bonnes ou mauvaises
+          surprises nous attendent par rapport à l'âge ou à l'humeur !
+        </p>
+        <p>
           Technos utilisées : React Native, Redux, Node.js, Express.js <br />
           Design : Figma, Whimsical <br />
           Outils : Github, Git <br />
           Tests : Jest, Postman
         </p>
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        {/* <h3 className="major">
-            Application Web de films et wishlist - Margaux Chevreux
-          </h3>
-          <Slider {...settings} className="sliderweb">
-            <img src={MyMoviz1} alt="" width="20" height="480" />
-            <img src={MyMoviz2} alt="" width="20" height="480" />
-            <img src={MyMoviz3} alt="" width="20" height="480" />
-            <img src={MyMoviz4} alt="" width="20" height="480" />
-          </Slider>
-          <p>
-            Création d'une application React de films récupérés via une API.
-          </p>
-
-          <p>
-            L'application va récupérer des films et leurs notes via une API.
-            Elle permet aux utilisateurs de les noter à leurs tours (ce qui va
-            changer la moyenne de notes).
-          </p>
-          <p>
-            Et pour finir, elle permet aux utilistauers de les ajouter ou non à
-            leurs wishlists.
-          </p>
-          <p>
-            Technos utilisées : React, MongoDB, Node.js, Express.js <br />
-            Design : Figma, Whimsical <br />
-            Outils : Github, Git <br />
-            Tests : Jest, Postman
-          </p>
-          <br />
-          <br />
-          <br />
-          <br />
-          <h3 className="major">
-            Application Web de presse et wishlist - Margaux Chevreux
-          </h3>
-          <Slider {...settings} className="sliderweb2">
-            <img src={MorningNews1} alt="" width="20" height="480" />
-            <img src={MorningNews2} alt="" width="20" height="480" />
-            <img src={MorningNews3} alt="" width="20" height="480" />
-            <img src={MorningNews4} alt="" width="20" height="480" />
-            <img src={MorningNews5} alt="" width="20" height="480" />
-          </Slider>
-          <p>
-            Création d'une application React d'articles de presse récupérés via
-            une API.
-          </p>
-
-          <p>
-            L'application va récupérer des articles français, et anglais via une
-            API. Elle permet aux utilisateurs de le choisir la presse française
-            ou anglaise, et de lire les artciles.
-          </p>
-          <p>
-            Et pour finir, elle permet aux utilistauers de les ajouter ou non à
-            leurs wishlists.
-          </p>
-          <p>
-            Technos utilisées : React, MongoDB, Node.js, Express.js <br />
-            Design : Figma, Whimsical <br />
-            Outils : Github, Git <br />
-            Tests : Jest, Postman
-          </p> */}
       </div>
     </div>
   </Layout>

@@ -9,12 +9,13 @@ import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-mobile"></span>
+          <span className="icon fas fa-mobile"></span>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -100,10 +101,10 @@ const IndexPage = () => (
             <h2 className="major">Ma passion pour la photographie</h2>
             <p>
               Depuis toute petite, j'ai toujours aimé photographier. J'adore
-              tout particulièrement capturer des portraits, et des paysages.{' '}
+              tout particulièrement capturer des portraits, et des paysages.
               <br />
               Ayant pratiqué longtemps à l'aide d'appareils photos numériques,
-              j'ai eu mon reflex Nikon D80 en 2013, et depuis je ne m'en sépare
+              j'ai ensuite eu mon reflex Nikon, et depuis je ne m'en sépare
               plus...
               <br />
               <br />

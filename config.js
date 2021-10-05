@@ -24,9 +24,9 @@ module.exports = {
       url: 'https://twitter.com/Mgxcx',
     },
     {
-      icon: 'fa-facebook',
-      name: 'facebook.com/Margaux.Chevreux',
-      url: 'https://www.facebook.com/Margaux.Chevreux/',
+      icon: 'fa-linkedin',
+      name: 'linkedin.com/in/margaux-chevreux',
+      url: 'https://www.linkedin.com/in/margaux-chevreux-377586a4/',
     },
     {
       icon: 'fa-envelope-o',
