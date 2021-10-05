@@ -3,8 +3,12 @@ import React from 'react';
 import Slide from 'react-reveal/Slide';
 
 import Slider from 'react-slick';
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+
+import '../assets/sass/components/slick/slick-theme.scss';
+import '../assets/sass/components/slick/slick.scss';
 
 import Layout from '../components/Layout';
 
@@ -40,17 +44,7 @@ import Face1 from '../assets/images/AppFace1.png';
 import Face2 from '../assets/images/AppFace2.png';
 import Face3 from '../assets/images/AppFace3.png';
 import Face4 from '../assets/images/AppFace4.png';
-
-// import MyMoviz1 from '../assets/images/MyMoviz1.png';
-// import MyMoviz2 from '../assets/images/MyMoviz2.png';
-// import MyMoviz3 from '../assets/images/MyMoviz3.png';
-// import MyMoviz4 from '../assets/images/MyMoviz4.png';
-
-// import MorningNews1 from '../assets/images/MorningNews1.png';
-// import MorningNews2 from '../assets/images/MorningNews2.png';
-// import MorningNews3 from '../assets/images/MorningNews3.png';
-// import MorningNews4 from '../assets/images/MorningNews4.png';
-// import MorningNews5 from '../assets/images/MorningNews5.png';
+import { Link } from 'gatsby';
 
 const settings = {
   dots: true,
@@ -75,14 +69,14 @@ const IndexPage = () => (
         <h3 className="major">Application mobile e-commerce - Beer's Corner</h3>
         <Slide bottom big>
           <Slider {...settings} className="slider">
-            <img src={Beers1} alt="" style="sliderimage" />
-            <img src={Beers2} alt="" style="sliderimage" />
-            <img src={Beers3} alt="" style="sliderimage" />
-            <img src={Beers4} alt="" style="sliderimage" />
-            <img src={Beers5} alt="" style="sliderimage" />
-            <img src={Beers6} alt="" style="sliderimage" />
-            <img src={Beers7} alt="" style="sliderimage" />
-            <img src={Beers8} alt="" style="sliderimage" />
+            <img src={Beers1} alt="" class="sliderimage" />
+            <img src={Beers2} alt="" class="sliderimage" />
+            <img src={Beers3} alt="" class="sliderimage" />
+            <img src={Beers4} alt="" class="sliderimage" />
+            <img src={Beers5} alt="" class="sliderimage" />
+            <img src={Beers6} alt="" class="sliderimage" />
+            <img src={Beers7} alt="" class="sliderimage" />
+            <img src={Beers8} alt="" class="sliderimage" />
           </Slider>
         </Slide>
         <p>
@@ -107,6 +101,14 @@ const IndexPage = () => (
           Stripe, et gestion de l'authentification avec Firebase.
         </p>
         <p>
+          <a
+            href="https://www.youtube.com/watch?v=jpcKRsbO8po"
+            className="special"
+          >
+            Découvrez-la en vidéo !
+          </a>
+        </p>
+        <p>
           Technos utilisées : React Native, Redux, Node.js, Express.js <br />
           Design : Figma, Whimsical <br />
           Outils : Gitlab, GitKraken <br />
@@ -118,12 +120,12 @@ const IndexPage = () => (
         <h3 className="major">Application Mobile CV - Margaux Chevreux</h3>
         <Slide bottom big>
           <Slider {...settings} className="slider2">
-            <img src={CV1} alt="" style="sliderimage" />
-            <img src={CV2} alt="" style="sliderimage" />
-            <img src={CV3} alt="" style="sliderimage" />
-            <img src={CV4} alt="" style="sliderimage" />
-            <img src={CV5} alt="" style="sliderimage" />
-            <img src={CV6} alt="" style="sliderimage" />
+            <img src={CV1} alt="" class="sliderimage" />
+            <img src={CV2} alt="" class="sliderimage" />
+            <img src={CV3} alt="" class="sliderimage" />
+            <img src={CV4} alt="" class="sliderimage" />
+            <img src={CV5} alt="" class="sliderimage" />
+            <img src={CV6} alt="" class="sliderimage" />
           </Slider>
         </Slide>
         <p>Création d’un projet de CV sous forme d’application React Native.</p>
@@ -146,6 +148,14 @@ const IndexPage = () => (
           de mes chats.
         </p>
         <p>
+          <a
+            href="https://www.youtube.com/watch?v=TdHJgz8KJgU"
+            className="special"
+          >
+            Découvrez-la en vidéo !
+          </a>
+        </p>
+        <p>
           Technos utilisées : React Native, Redux, Node.js, Express.js <br />
           Design : Figma, Whimsical <br />
           Outils : Gitlab, GitKraken <br />
@@ -160,10 +170,10 @@ const IndexPage = () => (
         </h3>
         <Slide bottom big>
           <Slider {...settings} className="slider">
-            <img src={Interview1} alt="" style="sliderimage" />
-            <img src={Interview2} alt="" style="sliderimage" />
-            <img src={Interview3} alt="" style="sliderimage" />
-            <img src={Interview4} alt="" style="sliderimage" />
+            <img src={Interview1} alt="" class="sliderimage" />
+            <img src={Interview2} alt="" class="sliderimage" />
+            <img src={Interview3} alt="" class="sliderimage" />
+            <img src={Interview4} alt="" class="sliderimage" />
           </Slider>
         </Slide>
         <p>
@@ -188,6 +198,14 @@ const IndexPage = () => (
           n'étaient pas assez préparés.
         </p>
         <p>
+          <a
+            href="https://www.youtube.com/watch?v=wdc-lx7tumA&t=16s"
+            className="special"
+          >
+            Découvrez-la en vidéo !
+          </a>
+        </p>
+        <p>
           Technos utilisées : React Native, Redux, MongoDB, Node.js, Express.js
           <br />
           Design : Figma, Whimsical <br />
@@ -202,12 +220,12 @@ const IndexPage = () => (
         </h3>
         <Slide bottom big>
           <Slider {...settings} className="slider2">
-            <img src={Location1} alt="" style="sliderimage" />
-            <img src={Location2} alt="" style="sliderimage" />
-            <img src={Location3} alt="" style="sliderimage" />
-            <img src={Location4} alt="" style="sliderimage" />
-            <img src={Location5} alt="" style="sliderimage" />
-            <img src={Location6} alt="" style="sliderimage" />
+            <img src={Location1} alt="" class="sliderimage" />
+            <img src={Location2} alt="" class="sliderimage" />
+            <img src={Location3} alt="" class="sliderimage" />
+            <img src={Location4} alt="" class="sliderimage" />
+            <img src={Location5} alt="" class="sliderimage" />
+            <img src={Location6} alt="" class="sliderimage" />
           </Slider>
         </Slide>
         <p>
@@ -247,10 +265,10 @@ const IndexPage = () => (
         </h3>
         <Slide bottom big>
           <Slider {...settings} className="slider">
-            <img src={Face1} alt="" style="sliderimage" />
-            <img src={Face2} alt="" style="sliderimage" />
-            <img src={Face3} alt="" style="sliderimage" />
-            <img src={Face4} alt="" style="sliderimage" />
+            <img src={Face1} alt="" class="sliderimage" />
+            <img src={Face2} alt="" class="sliderimage" />
+            <img src={Face3} alt="" class="sliderimage" />
+            <img src={Face4} alt="" class="sliderimage" />
           </Slider>
         </Slide>
         <p>
