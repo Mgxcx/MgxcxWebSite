@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Margaux Chevreux - Développeuse mobile freelance', // <title>
+  siteTitle: 'Margaux Chevreux - Développeuse mobile et web freelance', // <title>
   manifestName: 'Margaux Chevreux',
   manifestShortName: 'Margaux', // max 12 characters
   manifestStartUrl: '/',
@@ -10,7 +10,7 @@ module.exports = {
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Margaux Chevreux',
   subHeading:
-    "Développeuse d'applications mobiles originales, passionnée de photographie.",
+    "Développeuse d'applications mobile et web originales, passionnée de photographie.",
   // social
   socialLinks: [
     {
@@ -34,6 +34,5 @@ module.exports = {
       url: 'mailto:margaux.chevreux@mgxcx.fr',
     },
   ],
-  phone: '+33 6 49 08 54 53',
-  address: "2 Bis B rue du Puits d'Affetet 77230 Moussy le Vieux",
+  phone: '+33 (0)6 49 08 54 53',
 };
