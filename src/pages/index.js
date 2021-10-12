@@ -27,7 +27,7 @@ const IndexPage = () => (
         <div className="inner">
           <Slide right>
             <a href="/#" className="image">
-              <img src={pic1} alt="" />
+              <img src={pic1} alt="Picture of Margaux Chevreux" />
             </a>
           </Slide>
           <div className="content">
@@ -58,12 +58,15 @@ const IndexPage = () => (
         <div className="inner">
           <Slide left>
             <a href="/#" className="image">
-              <img src={pic2} alt="" />
+              <img
+                src={pic2}
+                alt="Picture of a woman working on a mobile app"
+              />
             </a>
           </Slide>
           <div className="content">
             <h2 className="major">
-              De la conception au développement de votre app mobile
+              De la conception au développement de votre app
             </h2>
             <p>
               Je me suis tout de suite spécialisée dans les applications
@@ -81,7 +84,7 @@ const IndexPage = () => (
               votre cœur de métier. <br />
               <br />
               Je crée aussi vos sites web statiques avec des animations sobres
-              et dynamiques, ou vos applications web. <br />
+              et dynamiques, ou vos applications web React. <br />
             </p>
             <a href="/Portfolio" className="special">
               En savoir plus
@@ -94,7 +97,7 @@ const IndexPage = () => (
         <div className="inner">
           <Slide right>
             <a href="/#" className="image">
-              <img src={pic3} alt="" />
+              <img src={pic3} alt="Picture of a camera" />
             </a>
           </Slide>
           <div className="content">

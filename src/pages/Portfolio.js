@@ -69,14 +69,46 @@ const IndexPage = () => (
         <h3 className="major">Application mobile e-commerce - Beer's Corner</h3>
         <Slide bottom big>
           <Slider {...settings} className="slider">
-            <img src={Beers1} alt="" class="sliderimage" />
-            <img src={Beers2} alt="" class="sliderimage" />
-            <img src={Beers3} alt="" class="sliderimage" />
-            <img src={Beers4} alt="" class="sliderimage" />
-            <img src={Beers5} alt="" class="sliderimage" />
-            <img src={Beers6} alt="" class="sliderimage" />
-            <img src={Beers7} alt="" class="sliderimage" />
-            <img src={Beers8} alt="" class="sliderimage" />
+            <img
+              src={Beers1}
+              alt="Picture 1 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers2}
+              alt="Picture 2 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers3}
+              alt="Picture 3 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers4}
+              alt="Picture 4 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers5}
+              alt="Picture 5 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers6}
+              alt="Picture 6 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers7}
+              alt="Picture 7 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers8}
+              alt="Picture 8 of a mobile e-commerce app"
+              class="sliderimage"
+            />
           </Slider>
         </Slide>
         <p>
@@ -120,12 +152,36 @@ const IndexPage = () => (
         <h3 className="major">Application Mobile CV - Margaux Chevreux</h3>
         <Slide bottom big>
           <Slider {...settings} className="slider2">
-            <img src={CV1} alt="" class="sliderimage" />
-            <img src={CV2} alt="" class="sliderimage" />
-            <img src={CV3} alt="" class="sliderimage" />
-            <img src={CV4} alt="" class="sliderimage" />
-            <img src={CV5} alt="" class="sliderimage" />
-            <img src={CV6} alt="" class="sliderimage" />
+            <img
+              src={CV1}
+              alt="Picture 1 of a mobile CV app"
+              class="sliderimage"
+            />
+            <img
+              src={CV2}
+              alt="Picture 2 of a mobile CV app"
+              class="sliderimage"
+            />
+            <img
+              src={CV3}
+              alt="Picture 3 of a mobile CV app"
+              class="sliderimage"
+            />
+            <img
+              src={CV4}
+              alt="Picture 4 of a mobile CV app"
+              class="sliderimage"
+            />
+            <img
+              src={CV5}
+              alt="Picture 5 of a mobile CV app"
+              class="sliderimage"
+            />
+            <img
+              src={CV6}
+              alt="Picture 6 of a mobile CV app"
+              class="sliderimage"
+            />
           </Slider>
         </Slide>
         <p>Création d’un projet de CV sous forme d’application React Native.</p>
@@ -170,10 +226,26 @@ const IndexPage = () => (
         </h3>
         <Slide bottom big>
           <Slider {...settings} className="slider">
-            <img src={Interview1} alt="" class="sliderimage" />
-            <img src={Interview2} alt="" class="sliderimage" />
-            <img src={Interview3} alt="" class="sliderimage" />
-            <img src={Interview4} alt="" class="sliderimage" />
+            <img
+              src={Interview1}
+              alt="Picture 1 of a mobile interview training app"
+              class="sliderimage"
+            />
+            <img
+              src={Interview2}
+              alt="Picture 2 of a mobile interview training app"
+              class="sliderimage"
+            />
+            <img
+              src={Interview3}
+              alt="Picture 3 of a mobile interview training app"
+              class="sliderimage"
+            />
+            <img
+              src={Interview4}
+              alt="Picture 4 of a mobile interview training app"
+              class="sliderimage"
+            />
           </Slider>
         </Slide>
         <p>
@@ -220,12 +292,36 @@ const IndexPage = () => (
         </h3>
         <Slide bottom big>
           <Slider {...settings} className="slider2">
-            <img src={Location1} alt="" class="sliderimage" />
-            <img src={Location2} alt="" class="sliderimage" />
-            <img src={Location3} alt="" class="sliderimage" />
-            <img src={Location4} alt="" class="sliderimage" />
-            <img src={Location5} alt="" class="sliderimage" />
-            <img src={Location6} alt="" class="sliderimage" />
+            <img
+              src={Location1}
+              alt="Picture 1 of a mobile mapping app"
+              class="sliderimage"
+            />
+            <img
+              src={Location2}
+              alt="Picture 2 of a mobile mapping app"
+              class="sliderimage"
+            />
+            <img
+              src={Location3}
+              alt="Picture 3 of a mobile mapping app"
+              class="sliderimage"
+            />
+            <img
+              src={Location4}
+              alt="Picture 4 of a mobile mapping app"
+              class="sliderimage"
+            />
+            <img
+              src={Location5}
+              alt="Picture 5 of a mobile mapping app"
+              class="sliderimage"
+            />
+            <img
+              src={Location6}
+              alt="Picture 6 of a mobile mapping app"
+              class="sliderimage"
+            />
           </Slider>
         </Slide>
         <p>
@@ -265,10 +361,26 @@ const IndexPage = () => (
         </h3>
         <Slide bottom big>
           <Slider {...settings} className="slider">
-            <img src={Face1} alt="" class="sliderimage" />
-            <img src={Face2} alt="" class="sliderimage" />
-            <img src={Face3} alt="" class="sliderimage" />
-            <img src={Face4} alt="" class="sliderimage" />
+            <img
+              src={Face1}
+              alt="Picture 1 of a mobile images app"
+              class="sliderimage"
+            />
+            <img
+              src={Face2}
+              alt="Picture 2 of a mobile images app"
+              class="sliderimage"
+            />
+            <img
+              src={Face3}
+              alt="Picture 3 of a mobile images app"
+              class="sliderimage"
+            />
+            <img
+              src={Face4}
+              alt="Picture 4 of a mobile images app"
+              class="sliderimage"
+            />
           </Slider>
         </Slide>
         <p>
