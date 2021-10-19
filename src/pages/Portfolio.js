@@ -120,8 +120,8 @@ const IndexPage = () => (
           sur leur caisse est devenu une évidence pour les deux gérants !
         </p>
         <p>
-          Création de l'application mobile de A à Z : maquettage, création de
-          l'UI Kit et développement. Elle contient une page d'accueil avec
+          Création de l'application mobile de A à Z seule : maquettage, création
+          de l'UI Kit et développement. Elle contient une page d'accueil avec
           toutes les actualités, une page pour stocker des produits favoris, une
           page de catalogue de produits avec un menu horizontal dynamique, une
           page dédiée au processus de commande (incluant le panier,
@@ -131,6 +131,10 @@ const IndexPage = () => (
           informations). <br />
           Spécificités : requêtes à leur API externe, gestion du paiement avec
           Stripe, et gestion de l'authentification avec Firebase.
+        </p>
+        <p>
+          Review de mon code par deux seniors pour assurer à mon client une
+          application très qualitative.
         </p>
         <p>
           <a
