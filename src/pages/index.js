@@ -7,6 +7,7 @@ import Layout from '../components/Layout';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+import laptopcode from '../assets/images/laptop-code-solid.svg';
 
 import config from '../../config';
 
@@ -16,7 +17,7 @@ const IndexPage = () => (
       <div className="inner">
         <div className="logo">
           <span className="icon">
-            <p> 👩🏼‍💻 </p>
+            <img src={laptopcode} alt="LaptopCode" class="laptopcodeicon" />
           </span>
         </div>
         <h2>{config.heading}</h2>
