@@ -15,7 +15,9 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fas fa-mobile"></span>
+          <span className="icon">
+            <p> 👩🏼‍💻 </p>
+          </span>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -25,30 +27,29 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <Slide right>
-            <a href="/#" className="image">
-              <img src={pic1} alt="Picture of Margaux Chevreux" />
-            </a>
+          <Slide top>
+            <img
+              src={pic1}
+              alt="Picture of Margaux Chevreux"
+              className="image"
+            />
           </Slide>
           <div className="content">
             <h2 className="major">À propos de moi...</h2>
             <p>
-              Au cours de ma carrière dans la relation client, j'ai découvert
-              plusieurs métiers en débutant en tant que réceptionniste, et en
-              finissant responsable des ventes.
-              <br />
               Après plusieurs années d'expérience dans le commerce et le
-              marketing, j'ai décidé de tourner une page en février 2020.
+              marketing en hôtellerie, j'ai décidé de tourner une page. 📖
               <br />
               <br />
-              Ayant déjà appris les bases du développement web durant ma licence
-              en 2013, et ayant pratiqué pendant un stage de master en 2015, ma
-              reconversion dans ce domaine est devenue une évidence.
+              Ayant déjà appris les bases du développement web durant ma Licence
+              professionnelle Tourisme Nouvelles Technologies, et ayant pratiqué
+              pendant un de mes stages de Master, ma reconversion dans ce
+              domaine est devenue une évidence. 👩🏼‍💻
+              <br />
               <br />
               Je m'épanouis énormément dans ce nouveau métier car je suis
               passionnée par la création, l'analyse, et la résolution de
               problèmes complexes.
-              <br />
             </p>
           </div>
         </div>
@@ -57,12 +58,11 @@ const IndexPage = () => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <Slide left>
-            <a href="/#" className="image">
-              <img
-                src={pic2}
-                alt="Picture of a woman working on a mobile app"
-              />
-            </a>
+            <img
+              src={pic2}
+              alt="Picture of a woman working on a mobile app"
+              className="image"
+            />
           </Slide>
           <div className="content">
             <h2 className="major">
@@ -70,22 +70,27 @@ const IndexPage = () => (
             </h2>
             <p>
               Je me suis tout de suite spécialisée dans les applications
-              mobiles, étant fan de cette technologie, et du minimalisme.
-              Entourée de freelances seniors React Native, je vous propose des
-              applications mobiles originales, sur-mesure, et de qualité. <br />
+              mobiles, étant fan de cette technologie, et du minimalisme. 📱👩🏼‍💻
               <br />
-              Mes expériences passées dans le commerce et le marketing me
-              permettent d'avoir un œil avisé sur l'expérience utilisateur : je
-              crée vos maquettes et votre UI. <br />
+              Entourée de freelances seniors React Native, je vous propose des
+              applications mobiles originales, sur-mesure, et de qualité.
+              <br />
+              <br />
+              Mes expériences dans le commerce et le marketing me permettent
+              d'avoir un œil avisé sur l'expérience utilisateur : je peux créer
+              vos maquettes et votre UI, ou simplement vous donner mon avis ! 🎨
+              <br />
               <br />
               J'ai conscience des besoins de chaque domaine, ayant été
               anciennement responsable des ventes B to B. Cela me permet de
-              développer et réaliser le design de votre application mobile selon
-              votre cœur de métier. <br />
+              développer votre application mobile selon votre cœur de métier.
+              <br />
               <br />
               Je crée aussi vos sites web statiques avec des animations sobres
-              et dynamiques, ou vos applications web React. <br />
+              et dynamiques, ou vos applications web React. 🌐
+              <br />
             </p>
+
             <a href="/Portfolio" className="special">
               En savoir plus
             </a>
@@ -95,10 +100,8 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <Slide right>
-            <a href="/#" className="image">
-              <img src={pic3} alt="Picture of a camera" />
-            </a>
+          <Slide bottom>
+            <img src={pic3} alt="Picture of a camera" className="image" />
           </Slide>
           <div className="content">
             <h2 className="major">Ma passion pour la photographie</h2>
@@ -108,7 +111,7 @@ const IndexPage = () => (
               <br />
               Ayant pratiqué longtemps à l'aide d'appareils photos numériques,
               j'ai ensuite eu mon reflex Nikon, et depuis je ne m'en sépare
-              plus...
+              plus... 📸
               <br />
               <br />
               Je vous donne un avant-goût de mes clichés avec ces superbes
