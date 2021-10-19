@@ -24,12 +24,13 @@
       border-radius: 100%;
       border: solid 2px _palette(border);
       cursor: default;
-      display: inline-block;
+      display: flex;
       font-size: 2em;
       height: 2.25em;
       line-height: 2.25em;
-      text-align: center;
       width: 2.25em;
+      align-items: center;
+      justify-content: center;
     }
   }
 
