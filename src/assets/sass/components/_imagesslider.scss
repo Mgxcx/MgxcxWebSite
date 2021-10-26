@@ -18,6 +18,24 @@
   margin-bottom: 5em;
 }
 
+.bigslider {
+  @media (max-width: 432px) {
+    float: none !important;
+    align-self: center !important;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  width: 16.5em !important;
+  height: 36.2em !important;
+  position: relative;
+  display: block;
+  float: right;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-top: 0.5em;
+  margin-bottom: 5em;
+}
+
 .slider2 {
   @media (max-width: 432px) {
     float: none !important;
