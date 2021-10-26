@@ -15,11 +15,17 @@ import Layout from '../components/Layout';
 import Beers1 from '../assets/images/AppBeers1.png';
 import Beers2 from '../assets/images/AppBeers2.png';
 import Beers3 from '../assets/images/AppBeers3.png';
-import Beers4 from '../assets/images/AppBeers4.png';
 import Beers5 from '../assets/images/AppBeers5.png';
 import Beers6 from '../assets/images/AppBeers6.png';
 import Beers7 from '../assets/images/AppBeers7.png';
 import Beers8 from '../assets/images/AppBeers8.png';
+import Beers9 from '../assets/images/AppBeers9.png';
+import Beers10 from '../assets/images/AppBeers10.png';
+import Beers11 from '../assets/images/AppBeers11.png';
+import Beers12 from '../assets/images/AppBeers12.png';
+import Beers13 from '../assets/images/AppBeers13.png';
+import Beers14 from '../assets/images/AppBeers14.png';
+import Beers16 from '../assets/images/AppBeers16.png';
 
 import CV1 from '../assets/images/AppCV1.png';
 import CV2 from '../assets/images/AppCV2.png';
@@ -44,7 +50,6 @@ import Face1 from '../assets/images/AppFace1.png';
 import Face2 from '../assets/images/AppFace2.png';
 import Face3 from '../assets/images/AppFace3.png';
 import Face4 from '../assets/images/AppFace4.png';
-import { Link } from 'gatsby';
 
 const settings = {
   dots: true,
@@ -68,7 +73,12 @@ const IndexPage = () => (
       <div className="inner">
         <h3 className="major">Application mobile e-commerce - Beer's Corner</h3>
         <Slide bottom big>
-          <Slider {...settings} className="slider">
+          <Slider {...settings} className="bigslider">
+            <img
+              src={Beers3}
+              alt="Picture 3 of a mobile e-commerce app"
+              class="sliderimage"
+            />
             <img
               src={Beers1}
               alt="Picture 1 of a mobile e-commerce app"
@@ -77,16 +87,6 @@ const IndexPage = () => (
             <img
               src={Beers2}
               alt="Picture 2 of a mobile e-commerce app"
-              class="sliderimage"
-            />
-            <img
-              src={Beers3}
-              alt="Picture 3 of a mobile e-commerce app"
-              class="sliderimage"
-            />
-            <img
-              src={Beers4}
-              alt="Picture 4 of a mobile e-commerce app"
               class="sliderimage"
             />
             <img
@@ -107,6 +107,41 @@ const IndexPage = () => (
             <img
               src={Beers8}
               alt="Picture 8 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers9}
+              alt="Picture 9 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers10}
+              alt="Picture 10 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers11}
+              alt="Picture 11 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers12}
+              alt="Picture 12 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers13}
+              alt="Picture 13 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers14}
+              alt="Picture 14 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
+              src={Beers16}
+              alt="Picture 16 of a mobile e-commerce app"
               class="sliderimage"
             />
           </Slider>
