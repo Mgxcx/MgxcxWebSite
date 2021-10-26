@@ -85,6 +85,11 @@ const IndexPage = () => (
               class="sliderimage"
             />
             <img
+              src={Beers4}
+              alt="Picture 4 of a mobile e-commerce app"
+              class="sliderimage"
+            />
+            <img
               src={Beers2}
               alt="Picture 2 of a mobile e-commerce app"
               class="sliderimage"
