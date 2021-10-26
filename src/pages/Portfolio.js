@@ -15,6 +15,7 @@ import Layout from '../components/Layout';
 import Beers1 from '../assets/images/AppBeers1.png';
 import Beers2 from '../assets/images/AppBeers2.png';
 import Beers3 from '../assets/images/AppBeers3.png';
+import Beers4 from '../assets/images/AppBeers4.png';
 import Beers5 from '../assets/images/AppBeers5.png';
 import Beers6 from '../assets/images/AppBeers6.png';
 import Beers7 from '../assets/images/AppBeers7.png';
