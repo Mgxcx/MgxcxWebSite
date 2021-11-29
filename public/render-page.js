@@ -1646,7 +1646,7 @@ var plugins = [{
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "40ef0f4781372a4cac3685b4b023a33d"
+    "cacheDigest": "c644cfaad8eb7f9c18e48770db956aa5"
   }
 }, {
   name: 'gatsby-plugin-offline',
@@ -10018,24 +10018,24 @@ module.exports = withSideEffect;
 /***/ }),
 
 /***/ "react-dom/server":
-/*!****************************************************************************************!*\
-  !*** external "/Users/margaux/ProjetsTech/SitePerso/node_modules/react-dom/server.js" ***!
-  \****************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** external "/Users/margaux/SynologyDrive/Tech/ProjetsTech/SitePerso/node_modules/react-dom/server.js" ***!
+  \***********************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/margaux/ProjetsTech/SitePerso/node_modules/react-dom/server.js");
+module.exports = require("/Users/margaux/SynologyDrive/Tech/ProjetsTech/SitePerso/node_modules/react-dom/server.js");
 
 /***/ }),
 
 /***/ "react":
-/*!***********************************************************************************!*\
-  !*** external "/Users/margaux/ProjetsTech/SitePerso/node_modules/react/index.js" ***!
-  \***********************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** external "/Users/margaux/SynologyDrive/Tech/ProjetsTech/SitePerso/node_modules/react/index.js" ***!
+  \******************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/margaux/ProjetsTech/SitePerso/node_modules/react/index.js");
+module.exports = require("/Users/margaux/SynologyDrive/Tech/ProjetsTech/SitePerso/node_modules/react/index.js");
 
 /***/ }),
 

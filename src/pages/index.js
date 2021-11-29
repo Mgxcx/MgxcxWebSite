@@ -2,9 +2,11 @@ import React from 'react';
 
 import Slide from 'react-reveal/Slide';
 
+import Typical from 'react-typical';
+
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
+import pic1 from '../assets/images/pic01.png';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import laptopcode from '../assets/images/laptop-code-solid.svg';
@@ -21,14 +23,28 @@ const IndexPage = () => (
           </span>
         </div>
         <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        <p>
+          {config.subHeading}
+          <Typical
+            steps={[
+              ' Passionnée de photographie.',
+              2000,
+              " Fan d'UX/UI.",
+              2000,
+              " Toujours à l'écoute.",
+              2000,
+            ]}
+            wrapper="p"
+            loop={Infinity}
+          />
+        </p>
       </div>
     </section>
 
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <Slide top>
+          <Slide bottom>
             <img
               src={pic1}
               alt="Picture of Margaux Chevreux"
