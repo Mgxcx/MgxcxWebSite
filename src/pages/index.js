@@ -23,7 +23,7 @@ const IndexPage = () => (
           </span>
         </div>
         <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        <p className="noPaddingBottom">{config.subHeading}</p>
         <Typical
           steps={[
             ' Passionnée de photographie.',
