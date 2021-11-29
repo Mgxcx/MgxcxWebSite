@@ -23,21 +23,19 @@ const IndexPage = () => (
           </span>
         </div>
         <h2>{config.heading}</h2>
-        <p>
-          {config.subHeading}
-          <Typical
-            steps={[
-              ' Passionnée de photographie.',
-              2000,
-              " Fan d'UX/UI.",
-              2000,
-              " Toujours à l'écoute.",
-              2000,
-            ]}
-            wrapper="p"
-            loop={Infinity}
-          />
-        </p>
+        <p>{config.subHeading}</p>
+        <Typical
+          steps={[
+            ' Passionnée de photographie.',
+            2000,
+            " Fan d'UX/UI.",
+            2000,
+            " Toujours à l'écoute.",
+            2000,
+          ]}
+          wrapper="p"
+          loop={Infinity}
+        />
       </div>
     </section>
 
