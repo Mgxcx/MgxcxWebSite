@@ -20,4 +20,7 @@ article {
 .portfolio2 {
   margin-top: 1em;
   margin-bottom: 3em !important;
+  @media (max-width: 432px) {
+    margin-bottom: 1.5em !important;
+  }
 }
