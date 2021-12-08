@@ -107,7 +107,7 @@ const IndexPage = () => (
             </p>
 
             <a href="/Portfolio" className="special">
-              En savoir plus
+              Voir mes projets
             </a>
           </div>
         </div>

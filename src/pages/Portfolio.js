@@ -25,8 +25,11 @@ import Beers10 from '../assets/images/AppBeers10.png';
 import Beers11 from '../assets/images/AppBeers11.png';
 import Beers12 from '../assets/images/AppBeers12.png';
 import Beers13 from '../assets/images/AppBeers13.png';
-import Beers14 from '../assets/images/AppBeers14.png';
-import Beers16 from '../assets/images/AppBeers16.png';
+
+import Unac1 from '../assets/images/UNAC1.png';
+import Unac2 from '../assets/images/UNAC2.png';
+import Unac3 from '../assets/images/UNAC3.png';
+import Unac4 from '../assets/images/UNAC4.png';
 
 import CV1 from '../assets/images/AppCV1.png';
 import CV2 from '../assets/images/AppCV2.png';
@@ -60,13 +63,13 @@ const settings = {
   speed: 500,
 };
 
-const IndexPage = () => (
+const Portfolio = () => (
   <Layout fullMenu>
     <section id="banner">
       <header>
         <div className="inner">
           <h2>Portfolio</h2>
-          <p>Les projets sur lesquels j'ai travaillé</p>
+          <p>Mes applications mobiles et web</p>
         </div>
       </header>
     </section>
@@ -140,16 +143,6 @@ const IndexPage = () => (
               alt="Picture 13 of a mobile e-commerce app"
               class="sliderimage"
             />
-            <img
-              src={Beers14}
-              alt="Picture 14 of a mobile e-commerce app"
-              class="sliderimage"
-            />
-            <img
-              src={Beers16}
-              alt="Picture 16 of a mobile e-commerce app"
-              class="sliderimage"
-            />
           </Slider>
         </Slide>
         <p>
@@ -181,6 +174,7 @@ const IndexPage = () => (
           <a
             href="https://www.youtube.com/watch?v=jpcKRsbO8po"
             className="special"
+            target="_blank"
           >
             Découvrez-la en vidéo !
           </a>
@@ -193,10 +187,35 @@ const IndexPage = () => (
         </p>
       </div>
 
+      <div className="inner portfolio2">
+        <h3 className="major">Site Web pour un syndicat aérien - UNAC</h3>
+        <Slide bottom big>
+          <Slider {...settings} className="sliderweb">
+            <img src={Unac1} alt="" class="sliderimageweb" />
+            <img src={Unac2} alt="" class="sliderimageweb" />
+            <img src={Unac3} alt="" class="sliderimageweb" />
+            <img src={Unac4} alt="" class="sliderimageweb" />
+          </Slider>
+        </Slide>
+        <p>
+          L’UNAC est un des syndicats d’Air France, existant depuis 1967, et
+          situé à Tremblay en France. Les membres du syndicat ont exprimé le
+          besoin de renouveler le design de leur site !
+        </p>
+        <p>
+          J'ai donc proposé mes services pour leur créer ce site avec des
+          animations.
+        </p>
+        <p>
+          Technos utilisées : HTML5, CSS3, SASS, Bootstrap <br />
+          Outils : Github, Git
+        </p>
+      </div>
+
       <div className="inner portfolio">
         <h3 className="major">Application Mobile CV - Margaux Chevreux</h3>
         <Slide bottom big>
-          <Slider {...settings} className="slider2">
+          <Slider {...settings} className="slider">
             <img
               src={CV1}
               alt="Picture 1 of a mobile CV app"
@@ -252,6 +271,7 @@ const IndexPage = () => (
           <a
             href="https://www.youtube.com/watch?v=TdHJgz8KJgU"
             className="special"
+            target="_blank"
           >
             Découvrez-la en vidéo !
           </a>
@@ -270,7 +290,7 @@ const IndexPage = () => (
           Pierre-Laurent Vincent
         </h3>
         <Slide bottom big>
-          <Slider {...settings} className="slider">
+          <Slider {...settings} className="slider2">
             <img
               src={Interview1}
               alt="Picture 1 of a mobile interview training app"
@@ -318,6 +338,7 @@ const IndexPage = () => (
           <a
             href="https://www.youtube.com/watch?v=wdc-lx7tumA&t=16s"
             className="special"
+            target="_blank"
           >
             Découvrez-la en vidéo !
           </a>
@@ -336,7 +357,7 @@ const IndexPage = () => (
           Application Mobile de partage de points d'intérêts - Margaux Chevreux
         </h3>
         <Slide bottom big>
-          <Slider {...settings} className="slider2">
+          <Slider {...settings} className="slider">
             <img
               src={Location1}
               alt="Picture 1 of a mobile mapping app"
@@ -405,7 +426,7 @@ const IndexPage = () => (
           Application Mobile de capture et galerie de photos - Margaux Chevreux
         </h3>
         <Slide bottom big>
-          <Slider {...settings} className="slider">
+          <Slider {...settings} className="slider2">
             <img
               src={Face1}
               alt="Picture 1 of a mobile images app"
@@ -464,4 +485,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default Portfolio;
