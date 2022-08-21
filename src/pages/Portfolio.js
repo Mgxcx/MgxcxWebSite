@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Slide from 'react-reveal/Slide';
-
 import Slider from 'react-slick';
 
 import 'slick-carousel/slick/slick.css';
@@ -11,6 +9,15 @@ import '../assets/sass/components/slick/slick-theme.scss';
 import '../assets/sass/components/slick/slick.scss';
 
 import Layout from '../components/Layout';
+
+import MoneyWalkie1 from '../assets/images/AppMoneyWalkie1.png';
+import MoneyWalkie2 from '../assets/images/AppMoneyWalkie2.png';
+import MoneyWalkie3 from '../assets/images/AppMoneyWalkie3.png';
+import MoneyWalkie4 from '../assets/images/AppMoneyWalkie4.png';
+import MoneyWalkie5 from '../assets/images/AppMoneyWalkie5.png';
+import MoneyWalkie6 from '../assets/images/AppMoneyWalkie6.png';
+import MoneyWalkie7 from '../assets/images/AppMoneyWalkie7.png';
+import MoneyWalkie8 from '../assets/images/AppMoneyWalkie8.png';
 
 import Beers1 from '../assets/images/AppBeers1.png';
 import Beers2 from '../assets/images/AppBeers2.png';
@@ -74,77 +81,161 @@ const Portfolio = () => (
       </header>
     </section>
     <div className="wrapper style2">
+    <div className="inner">
+        <h3 className="major">Application mobile fintech pour enfants - Money Walkie</h3>
+          <Slider {...settings} className="bigslider2">
+            <img
+              src={MoneyWalkie1}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie2}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie3}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie4}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie5}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie6}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie7}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie8}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+          </Slider>
+        <p>
+        Money Walkie est une application mobile qui permet de confier de petites sommes à un enfant. 
+        Avec son Walkie (outil sans contact et sécurisé), il peut effectuer des dépenses 
+        chez les commerçants seul ou avec un adulte. 
+        <br />
+        L'application permet de voir chaque dépense en temps réel,
+        et de créer des occasions d’ouvrir le dialogue entre le parent
+        et l’enfant par rapport à la gestion de l'argent à l'aide de stories notamment.
+        </p>
+
+        <p>
+        J'ai été missionnée pour la mise en place de nouvelles
+        fonctionnalités telles que les jauges de limites de paiement
+        afin que les enfants/parents puissent mieux contrôler leurs budgets/dépenses,
+        et l'historique de transactions affiché mensuellement contenant le détail des plus grosses
+        et plus petites dépenses afin d'avoir une meilleure visibilité. 
+        </p>
+
+        <p>
+        J'ai également travaillé sur la refonte design complète de
+        l'application mobile en binôme avec le lead dev.
+        Nous avons travaillé sur l'ensemble des screens et en
+        avons également ajouté tout en améliorant l'architecture existante
+        afin d'utiliser des global components, et découper sous forme de features. 
+
+        </p>
+
+        {/* <p>
+          <a
+            href="https://www.youtube.com/watch?v=jpcKRsbO8po"
+            className="special"
+            target="_blank"
+          >
+            Découvrez-la en vidéo !
+          </a>
+        </p> */}
+        <p>
+          Technos utilisées : React Native, Node.js, Express.js, MongoDB <br />
+          Outils : Github, GitKraken <br />
+          Tests : Jest, Insomnia
+        </p>
+      </div>
       <div className="inner">
         <h3 className="major">Application mobile e-commerce - Beer's Corner</h3>
-        <Slide bottom big>
           <Slider {...settings} className="bigslider">
             <img
               src={Beers3}
-              alt="Picture 3 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
             <img
               src={Beers1}
-              alt="Picture 1 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
             <img
               src={Beers4}
-              alt="Picture 4 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
             <img
               src={Beers2}
-              alt="Picture 2 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
             <img
               src={Beers5}
-              alt="Picture 5 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
             <img
               src={Beers6}
-              alt="Picture 6 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
             <img
               src={Beers7}
-              alt="Picture 7 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
             <img
               src={Beers8}
-              alt="Picture 8 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
             <img
               src={Beers9}
-              alt="Picture 9 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
             <img
               src={Beers10}
-              alt="Picture 10 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
             <img
               src={Beers11}
-              alt="Picture 11 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
             <img
               src={Beers12}
-              alt="Picture 12 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
             <img
               src={Beers13}
-              alt="Picture 13 of a mobile e-commerce app"
+              alt="mobile e-commerce app"
               class="sliderimage"
             />
           </Slider>
-        </Slide>
         <p>
           Beer’s Corner est un bar à bières situé au Plessis-Belleville. Il
           accueille une clientèle d’habitués, qui a pris l’habitude pendant le
@@ -189,14 +280,12 @@ const Portfolio = () => (
 
       <div className="inner portfolio2">
         <h3 className="major">Site Web pour un syndicat aérien - UNAC</h3>
-        <Slide bottom big>
           <Slider {...settings} className="sliderweb">
-            <img src={Unac1} alt="" class="sliderimageweb" />
-            <img src={Unac2} alt="" class="sliderimageweb" />
-            <img src={Unac3} alt="" class="sliderimageweb" />
-            <img src={Unac4} alt="" class="sliderimageweb" />
+            <img src={Unac1} alt="airfrance syndicate website" class="sliderimageweb" />
+            <img src={Unac2} alt="airfrance syndicate website" class="sliderimageweb" />
+            <img src={Unac3} alt="airfrance syndicate website" class="sliderimageweb" />
+            <img src={Unac4} alt="airfrance syndicate website" class="sliderimageweb" />
           </Slider>
-        </Slide>
         <p>
           L’UNAC est un des syndicats d’Air France, existant depuis 1967, et
           situé à Tremblay en France. Les membres du syndicat ont exprimé le
@@ -214,40 +303,38 @@ const Portfolio = () => (
 
       <div className="inner portfolio">
         <h3 className="major">Application Mobile CV - Margaux Chevreux</h3>
-        <Slide bottom big>
           <Slider {...settings} className="slider">
             <img
               src={CV1}
-              alt="Picture 1 of a mobile CV app"
+              alt="mobile CV app"
               class="sliderimage"
             />
             <img
               src={CV2}
-              alt="Picture 2 of a mobile CV app"
+              alt="mobile CV app"
               class="sliderimage"
             />
             <img
               src={CV3}
-              alt="Picture 3 of a mobile CV app"
+              alt="mobile CV app"
               class="sliderimage"
             />
             <img
               src={CV4}
-              alt="Picture 4 of a mobile CV app"
+              alt="mobile CV app"
               class="sliderimage"
             />
             <img
               src={CV5}
-              alt="Picture 5 of a mobile CV app"
+              alt="mobile CV app"
               class="sliderimage"
             />
             <img
               src={CV6}
-              alt="Picture 6 of a mobile CV app"
+              alt="mobile CV app"
               class="sliderimage"
             />
           </Slider>
-        </Slide>
         <p>Création d’un projet de CV sous forme d’application React Native.</p>
         <p>
           L’application contient une page d’accueil mettant en avant mes softs
@@ -289,30 +376,28 @@ const Portfolio = () => (
           Application Mobile d'entraînement aux entretiens - Margaux Chevreux et
           Pierre-Laurent Vincent
         </h3>
-        <Slide bottom big>
           <Slider {...settings} className="slider2">
             <img
               src={Interview1}
-              alt="Picture 1 of a mobile interview training app"
+              alt="mobile interview training app"
               class="sliderimage"
             />
             <img
               src={Interview2}
-              alt="Picture 2 of a mobile interview training app"
+              alt="mobile interview training app"
               class="sliderimage"
             />
             <img
               src={Interview3}
-              alt="Picture 3 of a mobile interview training app"
+              alt="mobile interview training app"
               class="sliderimage"
             />
             <img
               src={Interview4}
-              alt="Picture 4 of a mobile interview training app"
+              alt="mobile interview training app"
               class="sliderimage"
             />
           </Slider>
-        </Slide>
         <p>
           Création d'une application React Native d’entraînement aux entretiens
           d’embauche.
@@ -356,40 +441,38 @@ const Portfolio = () => (
         <h3 className="major">
           Application Mobile de partage de points d'intérêts - Margaux Chevreux
         </h3>
-        <Slide bottom big>
           <Slider {...settings} className="slider">
             <img
               src={Location1}
-              alt="Picture 1 of a mobile mapping app"
+              alt="mobile mapping app"
               class="sliderimage"
             />
             <img
               src={Location2}
-              alt="Picture 2 of a mobile mapping app"
+              alt="mobile mapping app"
               class="sliderimage"
             />
             <img
               src={Location3}
-              alt="Picture 3 of a mobile mapping app"
+              alt="mobile mapping app"
               class="sliderimage"
             />
             <img
               src={Location4}
-              alt="Picture 4 of a mobile mapping app"
+              alt="mobile mapping app"
               class="sliderimage"
             />
             <img
               src={Location5}
-              alt="Picture 5 of a mobile mapping app"
+              alt="mobile mapping app"
               class="sliderimage"
             />
             <img
               src={Location6}
-              alt="Picture 6 of a mobile mapping app"
+              alt="mobile mapping app"
               class="sliderimage"
             />
           </Slider>
-        </Slide>
         <p>
           Création d'une application React Native de partage de points
           d'intérêts à l'aide d'une map, et d'un chat.
@@ -425,30 +508,28 @@ const Portfolio = () => (
         <h3 className="major">
           Application Mobile de capture et galerie de photos - Margaux Chevreux
         </h3>
-        <Slide bottom big>
           <Slider {...settings} className="slider2">
             <img
               src={Face1}
-              alt="Picture 1 of a mobile images app"
+              alt="mobile images app"
               class="sliderimage"
             />
             <img
               src={Face2}
-              alt="Picture 2 of a mobile images app"
+              alt="mobile images app"
               class="sliderimage"
             />
             <img
               src={Face3}
-              alt="Picture 3 of a mobile images app"
+              alt="mobile images app"
               class="sliderimage"
             />
             <img
               src={Face4}
-              alt="Picture 4 of a mobile images app"
+              alt="mobile images app"
               class="sliderimage"
             />
           </Slider>
-        </Slide>
         <p>
           Création d'une application React Native de capture et galerie de
           photos, reliée à l'API Microsoft Azure de reconnaissance faciale: Face

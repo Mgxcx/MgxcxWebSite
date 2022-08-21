@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Slide from 'react-reveal/Slide';
-
 import Typical from 'react-typical';
 
 import Layout from '../components/Layout';
@@ -42,13 +40,11 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <Slide bottom>
             <img
               src={pic1}
               alt="Picture of Margaux Chevreux"
               className="image"
             />
-          </Slide>
           <div className="content">
             <h2 className="major">À propos de moi...</h2>
             <p>
@@ -72,13 +68,11 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <Slide left>
             <img
               src={pic2}
               alt="Picture of a woman working on a mobile app"
               className="image"
             />
-          </Slide>
           <div className="content">
             <h2 className="major">
               De la conception au développement de votre app
@@ -115,9 +109,7 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <Slide bottom>
             <img src={pic3} alt="Picture of a camera" className="image" />
-          </Slide>
           <div className="content">
             <h2 className="major">Ma passion pour la photographie</h2>
             <p>
