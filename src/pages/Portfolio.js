@@ -18,6 +18,7 @@ import MoneyWalkie5 from '../assets/images/AppMoneyWalkie5.png';
 import MoneyWalkie6 from '../assets/images/AppMoneyWalkie6.png';
 import MoneyWalkie7 from '../assets/images/AppMoneyWalkie7.png';
 import MoneyWalkie8 from '../assets/images/AppMoneyWalkie8.png';
+import MoneyWalkie9 from '../assets/images/AppMoneyWalkie9.png';
 
 import Beers1 from '../assets/images/AppBeers1.png';
 import Beers2 from '../assets/images/AppBeers2.png';
@@ -121,6 +122,11 @@ const Portfolio = () => (
             />
             <img
               src={MoneyWalkie8}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie9}
               alt="mobile fintech app"
               class="sliderimage"
             />
