@@ -4,7 +4,7 @@ import Typical from 'react-typical';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.png';
+import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import laptopcode from '../assets/images/laptop-code-solid.svg';
