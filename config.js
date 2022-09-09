@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/images/pic01.jpg',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Margaux Chevreux',
   subHeading: "Développeuse d'applications mobiles et web sur mesure.",

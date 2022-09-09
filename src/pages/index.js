@@ -24,7 +24,7 @@ const IndexPage = () => (
         <p className="noPaddingBottom">{config.subHeading}</p>
         <Typical
           steps={[
-            ' Passionnée de photographie.',
+            " Passionnée de photographie.",
             2000,
             " Fan d'UX/UI.",
             2000,
@@ -82,17 +82,13 @@ const IndexPage = () => (
               mobiles, étant fan de cette technologie, et du minimalisme. 📱👩🏼‍💻
               <br />
               Entourée de freelances seniors React Native, je vous propose des
-              applications mobiles originales, sur-mesure, et de qualité.
+              applications mobiles sur-mesure, et de qualité.
+              J'adore également travailler en équipe sur des applications mobiles déjà existantes.
               <br />
               <br />
               Mes expériences dans le commerce et le marketing me permettent
               d'avoir un œil avisé sur l'expérience utilisateur : je peux créer
               vos maquettes et votre UI, ou simplement vous donner mon avis ! 🎨
-              <br />
-              <br />
-              J'ai conscience des besoins de chaque domaine, ayant été
-              anciennement responsable des ventes B to B. Cela me permet de
-              développer votre application mobile selon votre cœur de métier.
               <br />
               <br />
               Je crée aussi vos sites web statiques avec des animations sobres
@@ -113,8 +109,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Ma passion pour la photographie</h2>
             <p>
-              Depuis toute petite, j'ai toujours aimé photographier. J'adore
-              tout particulièrement capturer des portraits, et des paysages.
+              J'ai toujours aimé photographier. J'adore capturer des portraits, et des paysages.
               <br />
               Ayant pratiqué longtemps à l'aide d'appareils photos numériques,
               j'ai ensuite eu mon reflex Nikon, et depuis je ne m'en sépare
@@ -122,10 +117,8 @@ const IndexPage = () => (
               <br />
               <br />
               Je vous donne un avant-goût de mes clichés avec ces superbes
-              calanques de Piana qui embellissent mon portfolio.
+              calanques de Piana en arrière-plan.
               <br />
-              J'attends avec impatience d'acquérir mon nouveau compagnon pour
-              capturer ce genre d'instants précieux.
               <br />
             </p>
           </div>

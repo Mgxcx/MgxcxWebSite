@@ -19,6 +19,12 @@ import MoneyWalkie6 from '../assets/images/AppMoneyWalkie6.png';
 import MoneyWalkie7 from '../assets/images/AppMoneyWalkie7.png';
 import MoneyWalkie8 from '../assets/images/AppMoneyWalkie8.png';
 import MoneyWalkie9 from '../assets/images/AppMoneyWalkie9.png';
+import MoneyWalkie10 from '../assets/images/AppMoneyWalkie10.png';
+import MoneyWalkie11 from '../assets/images/AppMoneyWalkie11.png';
+import MoneyWalkie12 from '../assets/images/AppMoneyWalkie12.png';
+import MoneyWalkie13 from '../assets/images/AppMoneyWalkie13.png';
+import MoneyWalkie14 from '../assets/images/AppMoneyWalkie14.png';
+import MoneyWalkie15 from '../assets/images/AppMoneyWalkie15.png';
 
 import Beers1 from '../assets/images/AppBeers1.png';
 import Beers2 from '../assets/images/AppBeers2.png';
@@ -130,6 +136,36 @@ const Portfolio = () => (
               alt="mobile fintech app"
               class="sliderimage"
             />
+            <img
+              src={MoneyWalkie10}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie11}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie12}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie13}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie14}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
+            <img
+              src={MoneyWalkie15}
+              alt="mobile fintech app"
+              class="sliderimage"
+            />
           </Slider>
         <p>
         Money Walkie est une application mobile qui permet de confier de petites sommes à un enfant. 
@@ -157,16 +193,6 @@ const Portfolio = () => (
         afin d'utiliser des global components, et découper sous forme de features. 
 
         </p>
-
-        {/* <p>
-          <a
-            href="https://www.youtube.com/watch?v=jpcKRsbO8po"
-            className="special"
-            target="_blank"
-          >
-            Découvrez-la en vidéo !
-          </a>
-        </p> */}
         <p>
           Technos utilisées : React Native, Node.js, Express.js, MongoDB <br />
           Outils : Github, GitKraken <br />

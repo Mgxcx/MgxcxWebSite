@@ -1654,13 +1654,13 @@ var plugins = [{
     "background_color": "#663399",
     "theme_color": "#663399",
     "display": "standalone",
-    "icon": "src/assets/img/website-icon.png",
+    "icon": "src/assets/images/pic01.jpg",
     "legacy": true,
     "theme_color_in_head": true,
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "c644cfaad8eb7f9c18e48770db956aa5"
+    "cacheDigest": "0dc13d1f9479cc64bd3dc9b9be0e7d1f"
   }
 }, {
   name: 'gatsby-plugin-offline',
