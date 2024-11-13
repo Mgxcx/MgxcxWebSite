@@ -40,7 +40,7 @@ export default function Footer() {
           </ul>
         </form>
         <ul className="contact">
-          <li className="fa-phone">{config.phone}</li>
+          {/* <li className="fa-phone">{config.phone}</li> */}
 
           {config.socialLinks.map((social) => {
             const { icon, name, url } = social;
